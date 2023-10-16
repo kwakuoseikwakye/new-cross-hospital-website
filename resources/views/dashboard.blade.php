@@ -105,7 +105,7 @@
     <!-- ============================
                                                               contact info
                                                           ============================== -->
-    {{-- <section class="contact-info py-0">
+    <section class="contact-info py-0">
         <div class="container">
             <div class="row row-no-gutter boxes-wrapper">
                 <div class="col-sm-12 col-md-4">
@@ -157,7 +157,7 @@
                 </div><!-- /.col-md-4 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-    </section> --}}
+    </section>
     <!-- /.contact-info -->
 
     <!-- ========================
