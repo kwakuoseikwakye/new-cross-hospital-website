@@ -80,7 +80,7 @@
                 </ul><!-- /.dropdown-menu --> --}}
               </li><!-- /.nav-item -->
               <li class="nav__item has-dropdown">
-                <a href="/about"  class="nav__item-link">About Us</a>
+                <a href="{{config('app.url')}}/about"  class="nav__item-link">About Us</a>
                 {{-- <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="about-us.html" class="nav__item-link">About Us</a>
