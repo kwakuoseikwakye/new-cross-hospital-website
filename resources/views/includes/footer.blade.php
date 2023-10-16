@@ -10,7 +10,7 @@
                   compassionate manner. We hope you will allow us to care for you and strive to be the first and best
                   choice for your family healthcare.
                 </p>
-                <a href="appointment.html" class="btn btn__primary btn__primary-style2 btn__link">
+                <a href="/appointment" class="btn btn__primary btn__primary-style2 btn__link">
                   <span>Make Appointment</span> <i class="icon-arrow-right"></i>
                 </a>
               </div><!-- /.footer-widget__content -->
@@ -35,11 +35,11 @@
                 <h6 class="footer-widget__title">Links</h6>
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our CLinic</a></li>
-                    <li><a href="#">Our Doctors</a></li>
-                    <li><a href="#">News & Media</a></li>
-                    <li><a href="#">Appointments</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/service">Our Services</a></li>
+                    {{-- <li><a href="#">Our Doctors</a></li>
+                    <li><a href="#">News & Media</a></li> --}}
+                    <li><a href="/appointment">Appointments</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget__content -->
@@ -75,8 +75,8 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-sm-12 col-md-6 col-lg-6">
-              <span class="fz-14">&copy; 2020 DataSoft, All Rights Reserved. With Love by</span>
-              <a class="fz-14 color-primary" href="http://themeforest.net/user/7oroof">7oroof.com</a>
+              <span class="fz-14">&copy; {{date("Y")}} New Cross Hospital, All Rights Reserved.</span>
+              {{-- <a class="fz-14 color-primary" href="http://themeforest.net/user/7oroof">7oroof.com</a> --}}
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-12 col-md-6 col-lg-6">
               <nav>
