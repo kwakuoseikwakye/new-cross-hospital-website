@@ -5,6 +5,9 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="preloader">
+            <div class="loading"><span></span><span></span><span></span><span></span></div>
+          </div>
         @include('includes.header')
 
         @yield('page-content')

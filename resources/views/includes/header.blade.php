@@ -60,8 +60,8 @@
           <div class="collapse navbar-collapse" id="mainNavigation">
             <ul class="navbar-nav ml-auto">
               <li class="nav__item has-dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link active">Home</a>
-                <ul class="dropdown-menu">
+                <a href="/" class="nav__item-link active">Home</a>
+                {{-- <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="index.html" class="nav__item-link">Home Main</a>
                   </li><!-- /.nav-item -->
@@ -77,11 +77,11 @@
                   <li class="nav__item">
                     <a href="home-pharmacy.html" class="nav__item-link">Home pharmacy</a>
                   </li><!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
+                </ul><!-- /.dropdown-menu --> --}}
               </li><!-- /.nav-item -->
               <li class="nav__item has-dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">About Us</a>
-                <ul class="dropdown-menu">
+                <a href="/about"  class="nav__item-link">About Us</a>
+                {{-- <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="about-us.html" class="nav__item-link">About Us</a>
                   </li><!-- /.nav-item -->
@@ -103,11 +103,11 @@
                   <li class="nav__item">
                     <a href="gallery.html" class="nav__item-link">Our Gallery</a>
                   </li><!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
+                </ul><!-- /.dropdown-menu --> --}}
               </li><!-- /.nav-item -->
               <li class="nav__item has-dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Doctors</a>
-                <ul class="dropdown-menu">
+                <a href="/services" class=" nav__item-link">Our Services</a>
+                {{-- <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="doctors-timetable.html" class="nav__item-link">Doctors Timetable</a>
                   </li> <!-- /.nav-item -->
@@ -126,9 +126,9 @@
                   <li class="nav__item">
                     <a href="doctors-single-doctor2.html" class="nav__item-link">Single Doctor 02</a>
                   </li> <!-- /.nav-item -->
-                </ul><!-- /.dropdown-menu -->
+                </ul><!-- /.dropdown-menu --> --}}
               </li><!-- /.nav-item -->
-              <li class="nav__item has-dropdown">
+              {{-- <li class="nav__item has-dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Blog</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
@@ -138,8 +138,8 @@
                     <a href="blog-single-post.html" class="nav__item-link">Single Blog Post</a>
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
-              </li><!-- /.nav-item -->
-              <li class="nav__item has-dropdown">
+              </li><!-- /.nav-item --> --}}
+              {{-- <li class="nav__item has-dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Shop</a>
                 <ul class="dropdown-menu">
                   <li class="nav__item">
@@ -152,19 +152,19 @@
                     <a href="cart.html" class="nav__item-link">Cart</a>
                   </li><!-- /.nav-item -->
                 </ul><!-- /.dropdown-menu -->
-              </li><!-- /.nav-item -->
+              </li><!-- /.nav-item --> --}}
               <li class="nav__item">
-                <a href="contact-us.html" class="nav__item-link">Contacts</a>
+                <a href="/contact" class="nav__item-link">Contacts</a>
               </li><!-- /.nav-item -->
             </ul><!-- /.navbar-nav -->
             <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>
           </div><!-- /.navbar-collapse -->
           <div class="d-none d-xl-flex align-items-center position-relative ml-30">
-            <div class="miniPopup-departments-trigger">
+            {{-- <div class="miniPopup-departments-trigger">
               <span class="menu-lines" id="miniPopup-departments-trigger-icon"><span></span></span>
               <a href="departments.html">Departments</a>
-            </div>
-            <ul id="miniPopup-departments" class="miniPopup miniPopup-departments dropdown-menu">
+            </div> --}}
+            {{-- <ul id="miniPopup-departments" class="miniPopup miniPopup-departments dropdown-menu">
               <li class="nav__item">
                 <a href="department-single.html" class="nav__item-link">Neurology Clinic</a>
               </li><!-- /.nav-item -->
@@ -183,8 +183,8 @@
               <li class="nav__item">
                 <a href="department-single.html" class="nav__item-link">Cardiac Clinic</a>
               </li><!-- /.nav-item -->
-            </ul> <!-- /.miniPopup-departments -->
-            <a href="appointment.html" class="btn btn__primary btn__rounded ml-30">
+            </ul> <!-- /.miniPopup-departments --> --}}
+            <a href="/appointment" class="btn btn__primary btn__rounded ml-30">
               <i class="icon-calendar"></i>
               <span>Appointment</span>
             </a>

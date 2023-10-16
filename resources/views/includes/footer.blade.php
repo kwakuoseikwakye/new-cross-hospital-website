@@ -15,22 +15,22 @@
                 </a>
               </div><!-- /.footer-widget__content -->
             </div><!-- /.col-xl-2 -->
-            <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
+            <div class="col-sm-8 col-md-8 col-lg-2 offset-lg-1">
               <div class="footer-widget-nav">
                 <h6 class="footer-widget__title">Departments</h6>
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">Neurology Clinic</a></li>
-                    <li><a href="#">Cardiology Clinic</a></li>
-                    <li><a href="#">Pathology Clinic</a></li>
-                    <li><a href="#">Laboratory Analysis</a></li>
-                    <li><a href="#">Pediatric Clinic</a></li>
-                    <li><a href="#">Cardiac Clinic</a></li>
+                    <li><a href="#">General Out-patients clinic</a></li>
+                    <li><a href="#">Pediatric surgery clinic</a></li>
+                    <li><a href="#">General surgery clinic</a></li>
+                    <li><a href="#">Obstetrics and Gynecology clinic</a></li>
+                    <li><a href="#">Ear, Nose and Throat consultation</a></li>
+                    <li><a href="#">Plastic and Reconstructive surgery clinic</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget__content -->
             </div><!-- /.col-lg-2 -->
-            <div class="col-sm-6 col-md-6 col-lg-2">
+            <div class="col-sm-4 col-md-4 col-lg-2">
               <div class="footer-widget-nav">
                 <h6 class="footer-widget__title">Links</h6>
                 <nav>
