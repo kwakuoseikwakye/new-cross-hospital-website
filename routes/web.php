@@ -22,7 +22,7 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/service', function () {
+Route::get('/services', function () {
     return view('service');
 });
 
