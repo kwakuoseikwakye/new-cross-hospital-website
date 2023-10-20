@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Medcity - Medical Healthcare HTML5 Template">
     <link href="assets/images/favicon/favicon.png" rel="icon">
-    <title>Medcity - Medical Healthcare HTML5 Template</title>
+    <title>New Cross Hospital &middot; @yield('pageName')</title>
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">

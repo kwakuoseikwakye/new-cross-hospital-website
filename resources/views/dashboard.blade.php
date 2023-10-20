@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('page-content')
     <!-- ============================
-                                                            Slider
-                                                        ============================== -->
+                                                                Slider
+                                                            ============================== -->
     <section class="slider">
         <div class="slick-carousel m-slides-0"
             data-slick='{"slidesToShow": 1, "arrows": true, "dots": false, "speed": 700,"fade": true,"cssEase": "linear"}'>
@@ -12,7 +12,7 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                             <div class="slide__content">
-                                <h6 class="slide__title">Your Trusted Healthcare Partner</h6>
+                                <h6 class="slide__title" style="color: white">Your Trusted Healthcare Partner</h6>
                                 <p class="slide__desc">
                                     At New Cross Hospital, we are committed to providing you with exceptional healthcare
                                     services in a compassionate and patient-centered environment. Our team of highly skilled
@@ -103,8 +103,8 @@
     </section><!-- /.slider -->
 
     <!-- ============================
-                                                              contact info
-                                                          ============================== -->
+                                                                  contact info
+                                                              ============================== -->
     <section class="contact-info py-0">
         <div class="container">
             <div class="row row-no-gutter boxes-wrapper">
@@ -148,7 +148,7 @@
                         <div class="contact__content">
                             <h2 class="contact__title">Opening Hours</h2>
                             <ul class="time__list list-unstyled mb-0">
-                                <li><span>Monday - Friday</span><span>8.00 - 7:00 pm</span></li>
+                                <li><span>Monday - Friday</span><span>8.00 - 4:00 pm</span></li>
                                 <li><span>Saturday</span><span>9.00 - 10:00 pm</span></li>
                                 <li><span>Sunday</span><span>10.00 - 12:00 pm</span></li>
                             </ul>
@@ -161,8 +161,8 @@
     <!-- /.contact-info -->
 
     <!-- ========================
-                                                            About Layout 2
-                                                          =========================== -->
+                                                                About Layout 2
+                                                              =========================== -->
     <section class="about-layout2 pb-0">
         <div class="container">
             <div class="row">
@@ -228,8 +228,8 @@
     </section><!-- /.About Layout 2 -->
 
     <!-- ========================
-                                                              Services Layout 1
-                                                          =========================== -->
+                                                                  Services Layout 1
+                                                              =========================== -->
     <section class="services-layout1 services-carousel">
         <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background"></div>
         <div class="container">
@@ -399,51 +399,17 @@
         </div><!-- /.container -->
     </section><!-- /.Services Layout 1 -->
 
-    <!-- ========================
-                                                              Notses
-                                                          =========================== -->
-    <section class="notes border-top pt-60 pb-60">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="note font-weight-bold">
-                        <i class="far fa-file-alt color-primary"></i>
-                        <span>Delivering tomorrow’s health care for your family.</span>
-                        <a href="doctors-timetable.html" class="btn btn__link btn__secondary">
-                            <span>View Doctors’ Timetable</span><i class="icon-arrow-right"></i>
-                        </a>
-                    </div>
-                </div><!-- /.col-sm-6 -->
-                <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="info__meta d-flex flex-wrap justify-content-between align-items-center">
-                        <div class="testimonials__rating">
-                            <div class="testimonials__rating-inner d-flex align-items-center">
-                                <span class="total__rate">4.9</span>
-                                <div>
-                                    <span class="overall__rate">Zocdoc Overall Rating</span>
-                                    <span>, based on 7541 reviews.</span>
-                                </div>
-                            </div><!-- /.testimonials__rating-inner -->
-                        </div><!-- /.testimonials__rating -->
-                        <a href="appointment.html" class="btn btn__primary btn__rounded">
-                            <span>Make Appointment</span> <i class="icon-arrow-right"></i>
-                        </a>
-                    </div><!-- /.info__meta -->
-                </div><!-- /.col-sm-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.notes -->
-
     <!-- ======================
-                                                          Features Layout 2
-                                                          ========================= -->
+                                                              Features Layout 2
+                                                              ========================= -->
     <section class="features-layout2 pt-130 bg-overlay bg-overlay-primary">
         <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background"></div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-1">
                     <div class="heading__layout2 mb-50">
-                        <h3 class="heading__title color-white">Medcity Has Touched The Lives Of Patients & Providing Care
+                        <h3 class="heading__title color-white">New Cross Hospital Has Touched The Lives Of Patients &
+                            Providing Care
                             for The
                             Sickest In Our Community.</h3>
                     </div>
@@ -456,14 +422,12 @@
                     </div>
                 </div><!-- /.col-lg-5 -->
                 <div class="col-sm-9 col-md-9 col-lg-6">
-                    <p class="heading__desc font-weight-bold color-white mb-30">Medcity has been present in Europe since
-                        1990,
-                        offering innovative
-                        solutions, specializing in medical services for treatment of medical infrastructure. With over 100
-                        professionals actively participates in numerous initiatives aimed at creating sustainable change for
-                        patients!
+                    <p class="heading__desc font-weight-bold color-white mb-30">
+                        New Cross Hospital, originally founded in the year 2000 as a clinic, underwent
+                        a significant transformation in 2009 when it evolved into a primary hospital, and subsequently, it
+                        has further advanced its medical capabilities to become a specialized hospital.
                     </p>
-                    <a href="#" class="btn btn__white btn__link">
+                    <a href="/about" class="btn btn__white btn__link">
                         <i class="icon-arrow-right icon-filled"></i>
                         <span>Our Core Values</span>
                     </a>
@@ -623,9 +587,9 @@
 
 
     <!-- ======================
-                                                           Work Process
-                                                          ========================= -->
-    <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
+                                                               Work Process
+                                                              ========================= -->
+    {{-- <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
         <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="background"></div>
         <div class="container">
             <div class="row heading-layout2">
@@ -765,12 +729,12 @@
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </div><!-- /.cta -->
-    </section><!-- /.Work Process -->
+    </section><!-- /.Work Process --> --}}
 
 
     <!-- ========================
-                                                             gallery
-                                                            =========================== -->
+                                                                 gallery
+                                                                =========================== -->
     {{-- <section class="gallery pt-0 pb-90">
         <div class="container">
             <div class="row">
@@ -803,8 +767,8 @@
     <!-- /.gallery 2 -->
 
     <!-- ==========================
-                                                              contact layout 3
-                                                          =========================== -->
+                                                                  contact layout 3
+                                                              =========================== -->
     {{-- <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
         <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner"></div>
         <div class="container">
@@ -955,8 +919,8 @@
     <!-- /.contact layout 3 -->
 
     <!-- ======================
-                                                            Blog Grid
-                                                          ========================= -->
+                                                                Blog Grid
+                                                              ========================= -->
     {{-- <section class="blog-grid pb-50">
         <div class="container">
             <div class="row">

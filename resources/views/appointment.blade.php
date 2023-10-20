@@ -43,7 +43,7 @@
                                         calls.
                                     </p>
                                 </div>
-                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                {{-- <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-widget form-group-icon"></i>
                                         <select class="form-control">
@@ -52,8 +52,8 @@
                                             <option value="2">Pathology Clinic</option>
                                         </select>
                                     </div>
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                </div><!-- /.col-lg-6 --> --}}
+                                {{-- <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-user form-group-icon"></i>
                                         <select class="form-control">
@@ -62,7 +62,7 @@
                                             <option value="2">Mahmoud Begha</option>
                                         </select>
                                     </div>
-                                </div><!-- /.col-lg-6 -->
+                                </div><!-- /.col-lg-6 --> --}}
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-news form-group-icon"></i>

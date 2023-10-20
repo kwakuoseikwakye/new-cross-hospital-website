@@ -83,7 +83,7 @@ a {
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #f0584a;
+  color: #0e7d79;
   text-decoration: none;
 }
 
@@ -1018,7 +1018,7 @@ textarea {
 }
 
 .bg-overlay-secondary:before {
-  background-color: rgba(33, 51, 96, 0.93);
+  background-color: rgba(14, 125, 121, 0.93);
 }
 
 .bg-overlay-primary:before {

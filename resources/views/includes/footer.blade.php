@@ -1,10 +1,10 @@
 @section('footer')
 <footer class="footer">
-      <div class="footer-primary">
+      <div class="footer-secondary" style="background-color: rgb(4, 81, 94)">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-3">
-              <div class="footer-widget-about">
+              <div class="footer-widget-about" >
                 <img src="assets/images/logo/logo-light.png" alt="logo" class="mb-30">
                 <p class="color-gray">Our goal is to deliver quality of care in a courteous, respectful, and
                   compassionate manner. We hope you will allow us to care for you and strive to be the first and best
