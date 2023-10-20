@@ -23,26 +23,26 @@
                     </div><!-- /.miniPopup-emergency -->
                   </li>
                   <li>
-                    <i class="icon-phone"></i><a href="tel:+5565454117">Emergency Line: (002) 01061245741</a>
+                    <i class="icon-phone"></i><a href="tel:+5565454117">Emergency Line: 0106124574</a>
                   </li>
                   <li>
-                    <i class="icon-location"></i><a href="#">Location: Ahodwo, opposite Royal Lamerta hotel
+                    <i class="icon-location"></i><a href="#">Location: Ahodwo, opposite royal lamerta hotel
                     </a>
                   </li>
                   <li>
-                    <i class="icon-clock"></i><a href="/contact">Mon - Sun: 8:00 am - 4:00 pm</a>
+                    <i class="icon-clock"></i><a href="/contact">Mon - Sun: 8:00am - 4:00pm</a>
                   </li>
                 </ul><!-- /.contact__list -->
                 <div class="d-flex">
                   <ul class="social-icons list-unstyled mb-0 mr-30">
                     <li><a href="https://web.facebook.com/SweetsSculpts" style="color: rgb(48, 125, 227)"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://www.instagram.com/blemai_sculpts/" style="color: rgb(97, 14, 114)"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/blemai_sculpts/" style="color: rgb(199, 29, 233)"><i class="fab fa-instagram"></i></a></li>
                     {{-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> --}}
                   </ul><!-- /.social-icons -->
-                  <form class="header-topbar__search">
+                  {{-- <form class="header-topbar__search">
                     <input type="text" class="form-control" placeholder="Search...">
                     <button class="header-topbar__search-btn"><i class="fa fa-search"></i></button>
-                  </form>
+                  </form> --}}
                 </div>
               </div>
             </div><!-- /.col-12 -->

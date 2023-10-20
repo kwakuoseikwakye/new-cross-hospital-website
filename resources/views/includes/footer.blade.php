@@ -54,16 +54,15 @@
                       <i class="icon-phone"></i> <span>01061245741</span>
                     </a>
                   </li>
-                  <li class="color-body">2307 Beverley Rd Brooklyn, New York 11226 United States.</li>
+                  <li class="color-body">Ahodwo, opposite royal lamerta hotel.</li>
                 </ul>
                 <div class="d-flex align-items-center">
                   <a href="contact-us.html" class="btn btn__primary btn__link mr-30">
                     <i class="icon-arrow-right"></i> <span>Get Directions</span>
                   </a>
                   <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://web.facebook.com/SweetsSculpts"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/blemai_sculpts/"><i class="fab fa-instagram"></i></a></li>
                   </ul><!-- /.social-icons -->
                 </div>
               </div><!-- /.footer-widget__content -->
