@@ -73,25 +73,30 @@
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-email form-group-icon"></i>
-                                        <input type="email" class="form-control" placeholder="Email" id="contact-email"
+                                        <input type="number" class="form-control" placeholder="Age" id="contact-email"
                                             name="contact-email" required>
                                     </div>
                                 </div><!-- /.col-lg-6 -->
-                                <div class="col-sm-4 col-md-4 col-lg-4">
+                                <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-phone form-group-icon"></i>
                                         <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
                                             name="contact-phone" required>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
-                                <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <div class="form-group form-group-date">
-                                        <i class="icon-calendar form-group-icon"></i>
-                                        <input type="date" class="form-control" id="contact-date" name="contact-date"
-                                            required>
+                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <i class="icon-news form-group-icon"></i>
+                                        <select class="form-control">
+                                            <option value="2">General Consultation</option>
+                                            <option value="1">Specialist Consultation</option>
+                                            <option value="0">Plastic and reconstructive consultation</option>
+                                            <option value="0">Aesthetic consultation</option>
+                                            <option value="0">Physiotherapy consultation</option>
+                                        </select>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
-                                <div class="col-sm-4 col-md-4 col-lg-4">
+                                <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group form-group-date">
                                         <i class="icon-clock form-group-icon"></i>
                                         <input type="time" class="form-control" id="contact-time" name="contact-time"
@@ -124,10 +129,10 @@
                                             01061245741</a>
                                     </li>
                                     <li>
-                                        <i class="icon-location"></i><a href="#">Location: Brooklyn, New York</a>
+                                        <i class="icon-location"></i><a href="#">Location: Ahodwo, opposite royal lamerta hotel.</a>
                                     </li>
                                     <li>
-                                        <i class="icon-clock"></i><a href="contact-us.html">Mon - Fri: 8:00 am - 7:00 pm</a>
+                                        <i class="icon-clock"></i><a href="/contact">Mon - Fri: 8:00 am - 4:00 pm</a>
                                     </li>
                                 </ul>
                                 <a href="#" class="btn btn__white btn__rounded btn__outlined">Contact Us</a>

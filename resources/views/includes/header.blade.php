@@ -61,7 +61,7 @@
           <div class="collapse navbar-collapse" id="mainNavigation">
             <ul class="navbar-nav ml-auto">
               <li class="nav__item has-dropdown">
-                <a href="/" class="nav__item-link active">Home</a>
+                <a href="/" class="nav__item-link @if (Route::currentRouteName() === 'dashboard') active @endif">Home</a>
                 {{-- <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="index.html" class="nav__item-link">Home Main</a>
@@ -81,7 +81,7 @@
                 </ul><!-- /.dropdown-menu --> --}}
               </li><!-- /.nav-item -->
               <li class="nav__item has-dropdown">
-                <a href="{{config('app.url')}}/about"  class="nav__item-link">About Us</a>
+                <a href="{{config('app.url')}}/about"  class="nav__item-link @if (Route::currentRouteName() === 'about') active @endif">About Us</a>
                 {{-- <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="about-us.html" class="nav__item-link">About Us</a>
@@ -107,7 +107,7 @@
                 </ul><!-- /.dropdown-menu --> --}}
               </li><!-- /.nav-item -->
               <li class="nav__item has-dropdown">
-                <a href="/services" class=" nav__item-link">Our Services</a>
+                <a href="/services" class=" nav__item-link @if (Route::currentRouteName() === 'services') active @endif">Our Services</a>
                 {{-- <ul class="dropdown-menu">
                   <li class="nav__item">
                     <a href="doctors-timetable.html" class="nav__item-link">Doctors Timetable</a>
@@ -155,7 +155,7 @@
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item --> --}}
               <li class="nav__item">
-                <a href="/contact" class="nav__item-link">Contacts</a>
+                <a href="/contact" class="nav__item-link @if (Route::currentRouteName() === 'contact') active @endif">Contacts</a>
               </li><!-- /.nav-item -->
             </ul><!-- /.navbar-nav -->
             <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>

@@ -86,10 +86,10 @@
                                             01061245741</a>
                                     </li>
                                     <li>
-                                        <i class="icon-location"></i><a href="#">Location: Brooklyn, New York</a>
+                                        <i class="icon-location"></i><a href="#">Location: Ahodwo, opposite royal lamerta hotel.</a>
                                     </li>
                                     <li>
-                                        <i class="icon-clock"></i><a href="contact-us.html">Mon - Fri: 8:00 am - 7:00 pm</a>
+                                        <i class="icon-clock"></i><a href="contact-us.html">Mon - Fri: 8:00 am - 4:00 pm</a>
                                     </li>
                                 </ul>
                                 <a href="#" class="btn btn__white btn__rounded btn__outlined">Contact Us</a>
