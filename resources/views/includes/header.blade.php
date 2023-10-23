@@ -53,7 +53,7 @@
         <div class="container-fluid" >
           <a class="navbar-brand" href="/">
             <img src="assets/images/logo/logo-dark.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+            <img src="assets/images/logo/logo-dark.png"  class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
