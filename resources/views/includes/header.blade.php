@@ -30,7 +30,7 @@
                     </a>
                   </li>
                   <li>
-                    <i class="icon-clock"></i><a href="/services">Mon - Sun: 8:00am - 4:00pm</a>
+                    <i class="icon-clock"></i><a>Mon - Sun: 8:00am - 4:00pm</a>
                   </li>
                 </ul><!-- /.contact__list -->
                 <div class="d-flex">
@@ -162,8 +162,8 @@
           </div><!-- /.navbar-collapse -->
           <div class="d-none d-xl-flex align-items-center position-relative ml-30">
             <div class="miniPopup-departments-trigger">
-              <span class="menu-lines" id="miniPopup-departments-trigger-icon"><span></span></span>
-              <a href="/" style="color: rgb(214, 14, 14);">Sweet Surgical Sculpt</a>
+              {{-- <span class="menu-lines" id="miniPopup-departments-trigger-icon"><span></span></span> --}}
+              <a href="/sweet_sculpt" style="color: rgb(214, 14, 14);">Sweet Surgical Sculpt</a>
             </div>
             {{-- <ul id="miniPopup-departments" class="miniPopup miniPopup-departments dropdown-menu">
               <li class="nav__item">

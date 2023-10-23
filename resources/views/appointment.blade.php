@@ -89,7 +89,7 @@
                                         <i class="icon-news form-group-icon"></i>
                                         <select class="form-control">
                                             <option value="2">General Consultation</option>
-                                            <option value="1">Specialist Consultation</option>
+                                            <option value="0">Specialist Consultation</option>
                                             <option value="0">Plastic and reconstructive consultation</option>
                                             <option value="0">Aesthetic consultation</option>
                                             <option value="0">Physiotherapy consultation</option>

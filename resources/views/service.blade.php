@@ -60,11 +60,11 @@
                                 second opinion, our experienced physicians are here to provide you with personalized care
                                 and treatment plans tailored to your unique needs
                             </p>
-                            <ul class="list-items list-items-layout1 list-unstyled">
+                            {{-- <ul class="list-items list-items-layout1 list-unstyled">
                                 <li>Neurocritical Care</li>
                                 <li>Neuro Oncology</li>
                                 <li>Geriatric Neurology</li>
-                            </ul>
+                            </ul> --}}
                             {{-- <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
                                 <span>Read More</span>
                                 <i class="icon-arrow-right"></i>
@@ -114,7 +114,7 @@
                                 prevent complications. Whether you have a minor injury or require advanced wound management,
                                 our team is here to assist you on your path to recovery.
                             </p>
-                            <ul class="list-items list-items-layout1 list-unstyled">
+                            {{-- <ul class="list-items list-items-layout1 list-unstyled">
                                 <li>Surgical Pathology</li>
                                 <li>Histopathology</li>
                                 <li>Cytopathology </li>
@@ -122,7 +122,7 @@
                             <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
                                 <span>Read More</span>
                                 <i class="icon-arrow-right"></i>
-                            </a>
+                            </a> --}}
                         </div><!-- /.service__content -->
                     </div><!-- /.service-item -->
                 </div><!-- /.col-lg-4 -->
@@ -213,7 +213,7 @@
     <!-- ======================
                                     Features Layout 2
                                     ========================= -->
-    <section class="features-layout2 pt-130 mb-5 bg-overlay bg-overlay-primary">
+    {{-- <section class="features-layout2 pt-130 mb-5 bg-overlay bg-overlay-primary">
         <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background"></div>
         <div class="container">
             <div class="row">
@@ -395,5 +395,5 @@
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-    </section><!-- /.Features Layout 2 -->
+    </section><!-- /.Features Layout 2 --> --}}
 @endsection

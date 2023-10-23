@@ -26,6 +26,10 @@ Route::get('/services', function () {
     return view('service');
 })->name('services');
 
+Route::get('/sweet_sculpt', function () {
+    return view('sweet');
+});
+
 Route::get('/appointment', function () {
     return view('appointment');
 });
