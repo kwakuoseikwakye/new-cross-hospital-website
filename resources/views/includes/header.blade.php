@@ -161,10 +161,10 @@
             <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>
           </div><!-- /.navbar-collapse -->
           <div class="d-none d-xl-flex align-items-center position-relative ml-30">
-            {{-- <div class="miniPopup-departments-trigger">
+            <div class="miniPopup-departments-trigger">
               <span class="menu-lines" id="miniPopup-departments-trigger-icon"><span></span></span>
-              <a href="departments.html">Departments</a>
-            </div> --}}
+              <a href="/" style="color: rgb(214, 14, 14);">Sweet Surgical Sculpt</a>
+            </div>
             {{-- <ul id="miniPopup-departments" class="miniPopup miniPopup-departments dropdown-menu">
               <li class="nav__item">
                 <a href="department-single.html" class="nav__item-link">Neurology Clinic</a>
