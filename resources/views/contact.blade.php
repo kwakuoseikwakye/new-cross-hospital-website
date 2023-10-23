@@ -18,7 +18,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="contact-panel d-flex flex-wrap">
-                        <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
+                        <form class="contact-panel__form" method="post" name="submit-form" id="submit-form" action="{{url('submit-form')}}">
+                            @csrf
                             <div class="row">
                                 <div class="col-sm-12">
                                     <h4 class="contact-panel__title">How Can We Help? </h4>
@@ -27,28 +28,34 @@
                                         family's healthcare needs.
                                     </p>
                                 </div>
+                                @if(session('status'))
+                                <div class="col-sm-12 col-md-12 col-lg-12 alert alert-success">
+                                    Submitted
+                                    {{ session('status') }}
+                                </div>
+                              @endif
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-user form-group-icon"></i>
                                         <input type="text" class="form-control" placeholder="Name" id="contact-name"
-                                            name="contact-name" required>
+                                            name="name" required>
                                     </div>
                                 </div><!-- /.col-lg-6 -->
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-email form-group-icon"></i>
                                         <input type="email" class="form-control" placeholder="Email" id="contact-email"
-                                            name="contact-email" required>
+                                            name="email" required>
                                     </div>
                                 </div><!-- /.col-lg-6 -->
-                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
                                     <div class="form-group">
                                         <i class="icon-phone form-group-icon"></i>
                                         <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
-                                            name="contact-phone" required>
+                                            name="phone" required>
                                     </div>
                                 </div><!-- /.col-lg-6 -->
-                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                {{-- <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <i class="icon-news form-group-icon"></i>
                                         <select class="form-control">
@@ -57,11 +64,11 @@
                                             <option value="2">Subject 1</option>
                                         </select>
                                     </div>
-                                </div><!-- /.col-lg-6 -->
+                                </div><!-- /.col-lg-6 --> --}}
                                 <div class="col-12">
                                     <div class="form-group">
                                         <i class="icon-alert form-group-icon"></i>
-                                        <textarea class="form-control" placeholder="Message" id="contact-message" name="contact-message"></textarea>
+                                        <textarea class="form-control" placeholder="Message" id="contact-message" name="message"></textarea>
                                     </div>
                                     <button type="submit"
                                         class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
