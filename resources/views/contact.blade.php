@@ -2,10 +2,12 @@
 @section('page-content')
     <!-- =========================
                         Google Map
-                =========================  -->
+                =========================--> 
     <section class="google-map py-0">
         <iframe frameborder="0" height="500" width="100%"
-            src="https://maps.google.com/maps?q=Suite%20100%20San%20Francisco%2C%20LA%2094107%20United%20States&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"></iframe>
+         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1981.459861700083!2d-1.6233639!3d6.6568716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb912b076b678d%3A0xa31766a94cc835a5!2sAhodwo%20New%20Cross%20Hospital!5e0!3m2!1sen!2sgh!4v1697959827588!5m2!1sen!2sgh" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        {{-- <iframe frameborder="0" height="500" width="100%"
+            src="https://www.google.com/maps/place/Ahodwo+New+Cross+Hospital/@6.6568716,-1.6233639,18z/data=!4m14!1m7!3m6!1s0xfdb912b076b678d:0xa31766a94cc835a5!2sAhodwo+New+Cross+Hospital!8m2!3d6.6567917!4d-1.622063!16s%2Fg%2F11n6w1nd0l!3m5!1s0xfdb912b076b678d:0xa31766a94cc835a5!8m2!3d6.6567917!4d-1.622063!16s%2Fg%2F11n6w1nd0l?entry=ttu"></iframe> --}}
     </section><!-- /.GoogleMap -->
 
     <!-- ==========================

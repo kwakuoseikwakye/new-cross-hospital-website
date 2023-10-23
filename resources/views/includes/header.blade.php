@@ -30,7 +30,7 @@
                     </a>
                   </li>
                   <li>
-                    <i class="icon-clock"></i><a href="/contact">Mon - Sun: 8:00am - 4:00pm</a>
+                    <i class="icon-clock"></i><a href="/services">Mon - Sun: 8:00am - 4:00pm</a>
                   </li>
                 </ul><!-- /.contact__list -->
                 <div class="d-flex">
