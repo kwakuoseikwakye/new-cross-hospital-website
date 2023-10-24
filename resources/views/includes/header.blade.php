@@ -12,8 +12,8 @@
                       <div class="emergency__icon">
                         <i class="icon-call3"></i>
                       </div>
-                      <a href="tel:+201061245741" class="phone__number">
-                        <i class="icon-phone"></i> <span>+2 01061245741</span>
+                      <a href="tel:0322006348" class="phone__number">
+                        <i class="icon-phone"></i> <span>0322006348</span>
                       </a>
                       <p>Please feel free to contact our friendly reception staff with any general or medical enquiry.
                       </p>
@@ -23,10 +23,10 @@
                     </div><!-- /.miniPopup-emergency -->
                   </li>
                   <li>
-                    <i class="icon-phone"></i><a href="tel:+5565454117">Emergency Line: 0106124574</a>
+                    <i class="icon-phone"></i><a href="tel:0322006348">Emergency Line: 0322006348</a>
                   </li>
                   <li>
-                    <i class="icon-location"></i><a href="#">Location: Ahodwo, opposite royal lamerta hotel
+                    <i class="icon-location"></i><a href="/contact">Location: Ahodwo, opposite royal lamerta hotel
                     </a>
                   </li>
                   <li>

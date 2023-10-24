@@ -5,10 +5,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 offset-xl-2">
-                    <div class="pagetitle__icon">
+                    {{-- <div class="pagetitle__icon">
                         <i class="icon-microscope"></i>
-                    </div>
-                    <h1 class="pagetitle__heading">Sweets Surgical Sculpt (Plastic and Reconstructive Surgery)</h1>
+                    </div> --}}
+                    <h1 class="pagetitle__heading" style="color: white">Sweets Surgical Sculpt (Plastic and Reconstructive Surgery)</h1>
                     <p class="pagetitle__desc mb-30">
                         Sweets Surgical Sculpt, our subsidiary service, specializes in plastic and reconstructive surgery.
                         Our board-certified plastic surgeons offer a wide range of aesthetic and reconstructive procedures

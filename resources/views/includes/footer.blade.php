@@ -20,12 +20,12 @@
                 <h6 class="footer-widget__title">Departments</h6>
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">General Out-patients clinic</a></li>
-                    <li><a href="#">Pediatric surgery clinic</a></li>
-                    <li><a href="#">General surgery clinic</a></li>
-                    <li><a href="#">Obstetrics and Gynecology clinic</a></li>
-                    <li><a href="#">Ear, Nose and Throat consultation</a></li>
-                    <li><a href="#">Plastic and Reconstructive surgery clinic</a></li>
+                    <li><a href="/service">General Out-patients clinic</a></li>
+                    <li><a href="/service">Pediatric surgery clinic</a></li>
+                    <li><a href="/service">General surgery clinic</a></li>
+                    <li><a href="/service">Obstetrics and Gynecology clinic</a></li>
+                    <li><a href="/service">Ear, Nose and Throat consultation</a></li>
+                    <li><a href="/service">Plastic and Reconstructive surgery clinic</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget__content -->
@@ -50,14 +50,14 @@
                 <ul class="contact-list list-unstyled">
                   <li>If you have any questions or need help, feel free to contact with our team.</li>
                   <li>
-                    <a href="tel:01061245741" class="phone__number">
-                      <i class="icon-phone"></i> <span>01061245741</span>
+                    <a href="tel:0322006348" class="phone__number">
+                      <i class="icon-phone"></i> <span>0322006348</span>
                     </a>
                   </li>
                   <li class="color-body">Ahodwo, opposite royal lamerta hotel.</li>
                 </ul>
                 <div class="d-flex align-items-center">
-                  <a href="contact-us.html" class="btn btn__primary btn__link mr-30">
+                  <a href="/contact" class="btn btn__primary btn__link mr-30">
                     <i class="icon-arrow-right"></i> <span>Get Directions</span>
                   </a>
                   <ul class="social-icons list-unstyled mb-0">

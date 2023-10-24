@@ -40,7 +40,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                     <div class="heading text-center mb-60">
                         <h2 class="heading__subtitle">The Best Medical And General Practice Care!</h2>
-                        <h3 class="heading__title">Providing Medical Care For The Sickest In Our Community.</h3>
+                        <h3 class="heading__title">Providing Medical Care For Our Community.</h3>
                     </div><!-- /.heading -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->

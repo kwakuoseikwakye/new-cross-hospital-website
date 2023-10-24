@@ -410,8 +410,7 @@
                     <div class="heading__layout2 mb-50">
                         <h3 class="heading__title color-white">New Cross Hospital Has Touched The Lives Of Patients &
                             Providing Care
-                            for The
-                            Sickest In Our Community.</h3>
+                            for  Our Community.</h3>
                     </div>
                 </div><!-- /col-lg-5 -->
             </div><!-- /.row -->

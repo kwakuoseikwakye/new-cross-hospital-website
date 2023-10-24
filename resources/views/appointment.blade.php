@@ -84,7 +84,15 @@
                                             name="contact-phone" required>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
+                               
                                 <div class="col-sm-6 col-md-6 col-lg-6">
+                                    <div class="form-group form-group-date">
+                                        <i class="icon-clock form-group-icon"></i>
+                                        <input type="datetime-local" class="form-control" id="contact-time" name="contact-time"
+                                            required>
+                                    </div>
+                                </div><!-- /.col-lg-4 -->
+                                <div class="col-sm-12 col-md-12 col-lg-12">
                                     <div class="form-group">
                                         <i class="icon-news form-group-icon"></i>
                                         <select class="form-control">
@@ -94,13 +102,6 @@
                                             <option value="0">Aesthetic consultation</option>
                                             <option value="0">Physiotherapy consultation</option>
                                         </select>
-                                    </div>
-                                </div><!-- /.col-lg-4 -->
-                                <div class="col-sm-6 col-md-6 col-lg-6">
-                                    <div class="form-group form-group-date">
-                                        <i class="icon-clock form-group-icon"></i>
-                                        <input type="time" class="form-control" id="contact-time" name="contact-time"
-                                            required>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
                                 <div class="col-12">
@@ -118,15 +119,14 @@
                             <div>
                                 <h4 class="contact-panel__title color-white">Quick Contacts</h4>
                                 <p class="contact-panel__desc font-weight-bold color-white mb-30">
-                                    Contact us at [Phone Number] or [Email Address] to book your appointment or for any
+                                    Contact us at 0322006348 or info@anewcrosshospital.org to book your appointment or for any
                                     inquiries. We are here to serve you and your family's healthcare needs.
                                 </p>
                             </div>
                             <div>
                                 <ul class="contact__list list-unstyled mb-30">
                                     <li>
-                                        <i class="icon-phone"></i><a href="tel:+5565454117">Emergency Line: (002)
-                                            01061245741</a>
+                                        <i class="icon-phone"></i><a href="tel:+5565454117">Emergency Line: 0322006348</a>
                                     </li>
                                     <li>
                                         <i class="icon-location"></i><a href="#">Location: Ahodwo, opposite royal lamerta hotel.</a>
