@@ -118,8 +118,8 @@
                             <p class="contact__desc">Please feel free to contact our friendly reception staff with any
                                 general or
                                 medical enquiry.</p>
-                            <a href="tel:+201061245741" class="phone__number">
-                                <i class="icon-phone"></i> <span>01061245741</span>
+                            <a href="tel:0322006348" class="phone__number">
+                                <i class="icon-phone"></i> <span>0322006348</span>
                             </a>
                         </div><!-- /.contact__content -->
                     </div><!-- /.contact-box -->

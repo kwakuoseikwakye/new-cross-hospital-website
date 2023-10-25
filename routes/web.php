@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -18,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::post('book_appointment',[AppointmentController::class,"bookAppointment"]);
+Route::get('verify_payment/{code}',[AppointmentController::class,"verifyPayment"]);
 
 Route::get('/about', function () {
     return view('about');
