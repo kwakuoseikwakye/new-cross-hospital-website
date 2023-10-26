@@ -11,7 +11,9 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         $data = [
-            "message" => $request->message
+            "message" => $request->message,
+            "name" => $request->name,
+            "email" => $request->email
         ];
         //TODO::MUST GET THE OFFICIAL MAIL FROM THE ENV FILE
         // info@anewcrosshospital.org

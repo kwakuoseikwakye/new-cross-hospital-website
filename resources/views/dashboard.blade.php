@@ -148,9 +148,7 @@
                         <div class="contact__content">
                             <h2 class="contact__title">Opening Hours</h2>
                             <ul class="time__list list-unstyled mb-0">
-                                <li><span>Monday - Friday</span><span>8.00 - 4:00 pm</span></li>
-                                <li><span>Saturday</span><span>9.00 - 10:00 pm</span></li>
-                                <li><span>Sunday</span><span>10.00 - 12:00 pm</span></li>
+                                <li><span>Monday - Sunday </span><span> 8.00 am - 4:00 pm</span></li>
                             </ul>
                         </div><!-- /.contact__content -->
                     </div><!-- /.contact-box -->

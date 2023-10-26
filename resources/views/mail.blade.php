@@ -8,6 +8,8 @@
 </head>
 <body>
       <p>Dear Customer Service Team,</p>
-      <p>{{$data['message']}}</p>
+      <p>Name of Contact : {{$data['name']}}</p>
+      <p>Email of Contact : {{$data['email']}}</p>
+      <p>Message : {{$data['message']}}</p>
 </body>
 </html>

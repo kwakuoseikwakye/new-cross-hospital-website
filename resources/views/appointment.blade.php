@@ -101,12 +101,19 @@
                                     <div class="form-group">
                                         <i class="icon-news form-group-icon"></i>
                                         <select class="form-control" name="services">
-                                            <option value="001">General Consultation</option>
-                                            <option value="002">Specialist Consultation</option>
-                                            <option value="003">Plastic and reconstructive consultation</option>
-                                            <option value="004">Aesthetic consultation</option>
-                                            <option value="005">Physiotherapy consultation</option>
+                                            <option value="001">Out Patient Department (OPD) Consultation</option>
+                                            <option value="002">Antenatal Consultation</option>
+                                            <option value="003">Specialist Consultation</option>
+                                            <option value="004">Plastic and reconstructive consultation</option>
+                                            <option value="005">Aesthetic consultation</option>
+                                            <option value="006">Physiotherapy consultation</option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="form-group">
+                                        <i class="icon-alert form-group-icon"></i>
+                                        <textarea class="form-control" placeholder="Message" id="contact-message" name="message"></textarea>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
                                 <div class="col-12">
@@ -123,7 +130,7 @@
                             <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="banner"></div>
                             <div>
                                 <h4 class="contact-panel__title color-white">Quick Contacts</h4>
-                                <p class="contact-panel__desc font-weight-bold color-white mb-30">
+                                <p class="contact-panel__desc font-weight-bold color-white">
                                     Contact us at 0322006348 or info@anewcrosshospital.org to book your appointment or for
                                     any
                                     inquiries. We are here to serve you and your family's healthcare needs.
@@ -139,7 +146,7 @@
                                             lamerta hotel.</a>
                                     </li>
                                     <li>
-                                        <i class="icon-clock"></i><a href="/contact">Mon - Fri: 8:00 am - 4:00 pm</a>
+                                        <i class="icon-clock"></i><a href="/contact">Mon - Sun: 8:00 am - 4:00 pm</a>
                                     </li>
                                 </ul>
                                 <a href="#" class="btn btn__white btn__rounded btn__outlined">Contact Us</a>
@@ -183,7 +190,7 @@
 
                         setTimeout(() => {
                             window.location.href = `${data.data.checkout_url}`;
-                        }, 2000);
+                        }, 1000);
 
                     })
                     .catch(error => {
@@ -209,7 +216,7 @@
                         if (!data.status) {
                             return;
                         };
-                        console.log(data);
+                        
                         msg.innerHTML = null;
                         msg.innerHTML =
                             `<span class="alert alert-success ">Appointment booked successfully </span>`;

@@ -33,7 +33,7 @@
                                 </div>
                                 @if (session('status'))
                                     <div class="col-sm-12 col-md-12 col-lg-12 alert alert-success">
-                                        Submitted
+                                        
                                         {{ session('status') }}
                                     </div>
                                 @endif
@@ -101,7 +101,7 @@
                                             lamerta hotel.</a>
                                     </li>
                                     <li>
-                                        <i class="icon-clock"></i><a href="#">Mon - Fri: 8:00 am - 4:00 pm</a>
+                                        <i class="icon-clock"></i><a href="#">Mon - Sun: 8:00 am - 4:00 pm</a>
                                     </li>
                                 </ul>
                                 <a href="#" class="btn btn__white btn__rounded btn__outlined">Contact Us</a>

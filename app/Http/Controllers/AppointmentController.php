@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use PhpParser\Node\Stmt\TryCatch;
 
@@ -44,7 +45,9 @@ class AppointmentController extends Controller
                 $serviceAmt = "300";
             } else if ($service == "005") {
                 $serviceAmt = "500";
-            } else {
+            }  else if ($service == "006") {
+                $serviceAmt = "10";
+            }else {
                 return response()->json([
                     'status' => false,
                     'msg' => "Service amount must be provided"
@@ -90,9 +93,21 @@ class AppointmentController extends Controller
 
             curl_close($curl);
 
+            if ($err) {
+                return response()->json(
+                    ["status" => false]
+                );
+            }
+            //  DB::table("transactions")->insert([
+            //     "amount" => $serviceAmt,
+            //     "transaction" => $transactionId,
+            //     "status" =>  "pending",
+            //     "email" => $request->email,
+            //     "created_at" => date("Y-m-d h:i:s")
+            //  ]);
             $res = json_decode($response);
             return response()->json(
-                ["status" => "ok", "data" => $res]
+                ["status" => true, "data" => $res]
             );
             //code...
         } catch (\Exception $e) {
