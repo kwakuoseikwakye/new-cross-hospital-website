@@ -3,6 +3,7 @@
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,7 +22,7 @@ Route::get('/', function () {
 })->name('dashboard');
 
 Route::post('book_appointment',[AppointmentController::class,"bookAppointment"]);
-Route::get('verify_payment/{code}',[AppointmentController::class,"verifyPayment"]);
+Route::get('verify_payment/{code}/{transaction}',[AppointmentController::class,"verifyPayment"]);
 
 Route::get('/about', function () {
     return view('about');
@@ -36,7 +37,10 @@ Route::get('/sweet_sculpt', function () {
 });
 
 Route::get('/appointment', function () {
-    return view('appointment');
+    $services = DB::table("services")->get();
+    return view('appointment',[
+        "services" => $services
+    ]);
 });
 
 Route::get('/contact', function () {
