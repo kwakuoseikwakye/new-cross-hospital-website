@@ -49,8 +49,8 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="service-item">
                         <div class="service__icon">
-                            <i class="icon-head"></i>
-                            <i class="icon-head"></i>
+                            <i class="icon-emergency"></i>
+                            <i class="icon-emergency"></i>
                         </div><!-- /.service__icon -->
                         <div class="service__content">
                             <h4 class="service__title">General Consultations</h4>
@@ -76,8 +76,8 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="service-item">
                         <div class="service__icon">
-                            <i class="icon-heart"></i>
-                            <i class="icon-heart"></i>
+                            <i class="icon-scissors"></i>
+                            <i class="icon-scissors"></i>
                         </div><!-- /.service__icon -->
                         <div class="service__content">
                             <h4 class="service__title">Sweets Surgical Sculpt - Plastic and Reconstructive Surgery</h4>
@@ -104,8 +104,8 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="service-item">
                         <div class="service__icon">
-                            <i class="icon-microscope"></i>
-                            <i class="icon-microscope"></i>
+                            <i class="icon-bandage"></i>
+                            <i class="icon-bandage"></i>
                         </div><!-- /.service__icon -->
                         <div class="service__content">
                             <h4 class="service__title">Wound Dressing</h4>
@@ -193,6 +193,33 @@
                                 women at all stages of life. From prenatal care to menopause management, our skilled team of
                                 OB/GYN specialists offers a wide range of services to support your reproductive health and
                                 wellness.
+                            </p>
+                            {{-- <ul class="list-items list-items-layout1 list-unstyled">
+                                <li>Macular degeneration</li>
+                                <li>Diabetic retinopathy</li>
+                                <li>Excessive tearing</li>
+                            </ul> --}}
+                            {{-- <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                <span>Read More</span>
+                                <i class="icon-arrow-right"></i>
+                            </a> --}}
+                        </div><!-- /.service__content -->
+                    </div><!-- /.service-item -->
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="service-item">
+                        <div class="service__icon">
+                            <i class="icon-broken-leg"></i>
+                            <i class="icon-broken-leg"></i>
+                        </div><!-- /.service__icon -->
+                        <div class="service__content">
+                            <h4 class="service__title">Physiotherapy</h4>
+                            <p class="service__desc">
+                                At New Cross Hospital, we understand the importance of physical
+                                well-being in your overall health. Our dedicated team of experienced physiotherapists is
+                                here to provide you with personalized care and effective treatments to help you regain
+                                your mobility and improve your quality of life.
                             </p>
                             {{-- <ul class="list-items list-items-layout1 list-unstyled">
                                 <li>Macular degeneration</li>

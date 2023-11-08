@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('page-content')
     <!-- ============================
-                                                                Slider
-                                                            ============================== -->
+                                                                    Slider
+                                                                ============================== -->
     <section class="slider">
         <div class="slick-carousel m-slides-0"
             data-slick='{"slidesToShow": 1, "arrows": true, "dots": false, "speed": 700,"fade": true,"cssEase": "linear"}'>
@@ -103,8 +103,8 @@
     </section><!-- /.slider -->
 
     <!-- ============================
-                                                                  contact info
-                                                              ============================== -->
+                                                                      contact info
+                                                                  ============================== -->
     <section class="contact-info py-0">
         <div class="container">
             <div class="row row-no-gutter boxes-wrapper">
@@ -159,8 +159,8 @@
     <!-- /.contact-info -->
 
     <!-- ========================
-                                                                About Layout 2
-                                                              =========================== -->
+                                                                    About Layout 2
+                                                                  =========================== -->
     <section class="about-layout2 pb-0">
         <div class="container">
             <div class="row">
@@ -226,8 +226,8 @@
     </section><!-- /.About Layout 2 -->
 
     <!-- ========================
-                                                                  Services Layout 1
-                                                              =========================== -->
+                                                                      Services Layout 1
+                                                                  =========================== -->
     <section class="services-layout1 services-carousel">
         <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background"></div>
         <div class="container">
@@ -246,8 +246,8 @@
                         <!-- service item #1 -->
                         <div class="service-item">
                             <div class="service__icon">
-                                <i class="icon-head"></i>
-                                <i class="icon-head"></i>
+                                <i class="icon-emergency"></i>
+                                <i class="icon-emergency"></i>
                             </div><!-- /.service__icon -->
                             <div class="service__content">
                                 <h4 class="service__title">General Consultations</h4>
@@ -271,8 +271,8 @@
                         <!-- service item #2 -->
                         <div class="service-item">
                             <div class="service__icon">
-                                <i class="icon-heart"></i>
-                                <i class="icon-heart"></i>
+                                <i class="icon-heart3"></i>
+                                <i class="icon-heart3"></i>
                             </div><!-- /.service__icon -->
                             <div class="service__content">
                                 <h4 class="service__title">Pediatric Surgery</h4>
@@ -296,8 +296,8 @@
                         <!-- service item #3 -->
                         <div class="service-item">
                             <div class="service__icon">
-                                <i class="icon-microscope"></i>
-                                <i class="icon-microscope"></i>
+                                <i class="icon-heart2"></i>
+                                <i class="icon-heart2"></i>
                             </div><!-- /.service__icon -->
                             <div class="service__content">
                                 <h4 class="service__title">Obstetrics & Gynecology (Obs & Gynea)</h4>
@@ -321,15 +321,16 @@
                         <!-- service item #4 -->
                         <div class="service-item">
                             <div class="service__icon">
-                                <i class="icon-dropper"></i>
-                                <i class="icon-dropper"></i>
+                                <i class="icon-broken-leg"></i>
+                                <i class="icon-broken-leg"></i>
                             </div><!-- /.service__icon -->
                             <div class="service__content">
-                                <h4 class="service__title">Laboratory Analysis</h4>
-                                <p class="service__desc">Proper wound care is crucial for a swift and successful recovery.
-                                    Our wound dressing services are designed to provide meticulous care to promote healing
-                                    and prevent complications. Whether you have a minor injury or require advanced wound
-                                    management, our team is here to assist you on your path to recovery
+                                <h4 class="service__title">Physiotherapy </h4>
+                                <p class="service__desc">At New Cross Hospital, we understand the importance of physical
+                                    well-being in your overall health. Our dedicated team of experienced physiotherapists is
+                                    here to provide you with personalized care and effective treatments to help you regain
+                                    your mobility and improve your quality of life.
+
                                 </p>
                                 {{-- <ul class="list-items list-items-layout1 list-unstyled">
                                     <li>Newborn Care</li>
@@ -345,8 +346,8 @@
                         <!-- service item #5 -->
                         <div class="service-item">
                             <div class="service__icon">
-                                <i class="icon-heart3"></i>
-                                <i class="icon-heart3"></i>
+                                <i class="icon-dropper"></i>
+                                <i class="icon-dropper"></i>
                             </div><!-- /.service__icon -->
                             <div class="service__content">
                                 <h4 class="service__title">Ear, Nose, and Throat (ENT)</h4>
@@ -369,8 +370,8 @@
                         <!-- service item #6 -->
                         <div class="service-item">
                             <div class="service__icon">
-                                <i class="icon-heart2"></i>
-                                <i class="icon-heart2"></i>
+                                <i class="icon-scissors"></i>
+                                <i class="icon-scissors"></i>
                             </div><!-- /.service__icon -->
                             <div class="service__content">
                                 <h4 class="service__title">Sweets Surgical Sculpt - Plastic and Reconstructive Surgery</h4>
@@ -398,8 +399,8 @@
     </section><!-- /.Services Layout 1 -->
 
     <!-- ======================
-                                                              Features Layout 2
-                                                              ========================= -->
+                                                                  Features Layout 2
+                                                                  ========================= -->
     <section class="features-layout2 pt-130 bg-overlay bg-overlay-primary">
         <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background"></div>
         <div class="container">
@@ -408,7 +409,7 @@
                     <div class="heading__layout2 mb-50">
                         <h3 class="heading__title color-white">New Cross Hospital Has Touched The Lives Of Patients &
                             Providing Care
-                            for  Our Community.</h3>
+                            for Our Community.</h3>
                     </div>
                 </div><!-- /col-lg-5 -->
             </div><!-- /.row -->
@@ -584,8 +585,8 @@
 
 
     <!-- ======================
-                                                               Work Process
-                                                              ========================= -->
+                                                                   Work Process
+                                                                  ========================= -->
     {{-- <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
         <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="background"></div>
         <div class="container">
@@ -730,8 +731,8 @@
 
 
     <!-- ========================
-                                                                 gallery
-                                                                =========================== -->
+                                                                     gallery
+                                                                    =========================== -->
     {{-- <section class="gallery pt-0 pb-90">
         <div class="container">
             <div class="row">
@@ -764,8 +765,8 @@
     <!-- /.gallery 2 -->
 
     <!-- ==========================
-                                                                  contact layout 3
-                                                              =========================== -->
+                                                                      contact layout 3
+                                                                  =========================== -->
     {{-- <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
         <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner"></div>
         <div class="container">
@@ -916,8 +917,8 @@
     <!-- /.contact layout 3 -->
 
     <!-- ======================
-                                                                Blog Grid
-                                                              ========================= -->
+                                                                    Blog Grid
+                                                                  ========================= -->
     {{-- <section class="blog-grid pb-50">
         <div class="container">
             <div class="row">
