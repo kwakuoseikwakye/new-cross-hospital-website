@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('page-content')
     <!-- ========================
-                                                                                                           page title
-                                                                                                        =========================== -->
+                                                                                                                               page title
+                                                                                                                            =========================== -->
     <section class="page-title page-title-layout4 bg-overlay text-center">
         <div class="bg-img"><img src="assets/images/page-titles/5.jpg" alt="background"></div>
         <div class="container">
@@ -26,8 +26,8 @@
 
 
     <!-- ==========================
-                                                                                                            contact layout 2
-                                                                                                        =========================== -->
+                                                                                                                                contact layout 2
+                                                                                                                            =========================== -->
     <section class="contact-layout2 pt-5">
         <div class="container">
             <div class="row">
@@ -93,14 +93,14 @@
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group form-group-date">
                                         <i class="icon-clock form-group-icon"></i>
-                                        <input type="datetime-local" class="form-control" id="contact-time" name="date"
-                                            required>
+                                        <input type="datetime-local" class="form-control" id="appointment-time"
+                                            name="date" required>
                                     </div>
                                 </div><!-- /.col-lg-4 -->
                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                     <div class="form-group">
                                         <i class="icon-news form-group-icon"></i>
-                                        <select class="form-control" name="services">
+                                        <select class="form-control" name="services" required>
                                             @foreach ($services as $item)
                                                 <option value="{{ $item->amount }}">{{ $item->desc }}</option>
                                             @endforeach
@@ -199,6 +199,49 @@
             //         });
             // });
 
+            var inputElement = document.getElementById("appointment-time");
+
+            // Define a function to be executed when the input is clicked
+            function handleClick(inputValue) {
+                fetch(`/check_appointment_time/${inputValue}`, {
+                    method: 'GET'
+                }).then(function(res) {
+                    return res.json()
+                }).then(function(data) {
+                    if (!data.status) {
+                        iziToast.error({
+                            timeout: 5000,
+                            resetOnHover: true,
+                            transitionIn: 'flipInX',
+                            transitionOut: 'flipOutX',
+                            position: 'topRight',
+                            message: data.msg
+                        });
+
+                        inputElement.value = "";
+                        return;
+                    }
+
+                    iziToast.success({
+                        timeout: 5000,
+                        resetOnHover: true,
+                        transitionIn: 'flipInX',
+                        transitionOut: 'flipOutX',
+                        position: 'topRight',
+                        message: data.msg
+                    });
+                });
+            }
+
+            // Add an event listener to listen for the input event
+            inputElement.addEventListener("input", function() {
+                var inputValue = inputElement.value;
+                if (inputValue == "") {
+                    return;
+                }
+                handleClick(inputValue);
+            });
+
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
 
@@ -237,7 +280,6 @@
                     heightAuto: false,
                     footer: "<span style='color: red; text-align: center'>If you choose to pay online we will redirect you to the checkout page.</span>",
                 }).then(result => {
-                    console.log(result);
                     if (result.isDismissed && result.dismiss.toLowerCase() == 'backdrop') {
                         return;
                     }

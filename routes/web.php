@@ -21,6 +21,7 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard');
 
+Route::get('check_appointment_time/{time}',[AppointmentController::class,"checkAppointmentTime"]);
 Route::post('book_appointment',[AppointmentController::class,"bookAppointment"]);
 Route::get('verify_payment/{code}/{transaction}',[AppointmentController::class,"verifyPayment"]);
 

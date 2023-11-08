@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\SMS\Arkesel as Sms;
 use App\Mail\BookingMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -19,7 +20,7 @@ class AppointmentController extends Controller
                 "name" => "required",
                 "email" => "required",
                 "services" => "required",
-                "phone" => "required",
+                "date" => "required",
             ]
         );
 
@@ -33,6 +34,8 @@ class AppointmentController extends Controller
                 ]
             ]);
         }
+
+        $this->checkAppointmentTime($request->date);
 
         try {
             $serviceAmt = (int)$request->services;
@@ -133,7 +136,7 @@ class AppointmentController extends Controller
         if (!empty($code) && $code == "000") {
             $getStatus = DB::table("booking")->where("booking_code", $transactionId)->first();
             $getTransaction = DB::table("transactions")->where("transaction", $transactionId)->first();
-            if ($getStatus->status == "paid" || $getTransaction == "success") {
+            if ($getStatus->status == "paid" || $getTransaction->status == "success") {
                 return response()->json([
                     "status" => false,
                     "msg" => "Service has already been booked"
@@ -145,6 +148,21 @@ class AppointmentController extends Controller
             DB::table("transactions")->where("transaction", $transactionId)->update([
                 "status" => "success"
             ]);
+
+            $booking = DB::table("booking")->where("booking_code", $transactionId)->where("status", "paid")->first();
+            $bookingDate = date("jS F Y H:i:s A", strtotime($booking->booking_date));
+            $msg = <<<MSG
+            Thanks for scheduling an appointment with us! Below are your appointment and payment details.
+
+            Amount Paid: GHS {$booking->amount} 
+            Booking Date: {$bookingDate}
+            Receipt No: {$booking->booking_code}
+            MSG;
+            if (!empty($booking->phone)) {
+
+                $sms = new Sms("NC-HOSPITAL", env("ARKESEL_SMS_API_KEY"));
+                $sms->send($booking->phone, $msg);
+            }
 
             return response()->json([
                 "status" => true,
@@ -168,5 +186,47 @@ class AppointmentController extends Controller
                 "msg" => "Booking could not be completed"
             ]);
         }
+    }
+
+    public function checkAppointmentTime($time)
+    {
+        $inputDateTimeLocal = $time;
+        $time = \Carbon\Carbon::parse($inputDateTimeLocal)->format('H:i:s');
+        $date = \Carbon\Carbon::parse($inputDateTimeLocal)->format('Y-m-d');
+        $currentDate = date('Y-m-d');
+        if ($date < $currentDate) {
+            return response()->json([
+                "status" => false,
+                "msg" => "Sorry you cannot book appointment in the past"
+            ]);
+        }
+
+        $results = DB::table("booking_time")->whereTime('from_time', '<=', $time)
+            ->whereTime('to_time', '>=', $time)
+            ->get();
+        if ($results->isEmpty()) {
+            return response()->json([
+                "status" => false,
+                "msg" => "Booking time is not available."
+            ]);
+        } else {
+            return response()->json([
+                "status" => true,
+                "msg" => "Booking time available"
+            ]);
+        }
+    }
+
+    private function checkServiceAmount($amount)
+    {
+        $serviceAmount = DB::table("services")->where("amount", $amount)->first();
+
+        if (empty($serviceAmount)) {
+            return response()->json([
+                "status" => false,
+                "msg" => "Booking failed please pay the required amount"
+            ]);
+        }
+        return $serviceAmount->amount;
     }
 }

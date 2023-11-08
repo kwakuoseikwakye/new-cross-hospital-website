@@ -20,12 +20,12 @@
                 <h6 class="footer-widget__title">Departments</h6>
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="/service">General Out-patients clinic</a></li>
-                    <li><a href="/service">Pediatric surgery clinic</a></li>
-                    <li><a href="/service">General surgery clinic</a></li>
-                    <li><a href="/service">Obstetrics and Gynecology clinic</a></li>
-                    <li><a href="/service">Ear, Nose and Throat consultation</a></li>
-                    <li><a href="/service">Plastic and Reconstructive surgery clinic</a></li>
+                    <li><a href="/services">General Out-patients clinic</a></li>
+                    <li><a href="/services">Pediatric surgery clinic</a></li>
+                    <li><a href="/services">General surgery clinic</a></li>
+                    <li><a href="/services">Obstetrics and Gynecology clinic</a></li>
+                    <li><a href="/services">Ear, Nose and Throat consultation</a></li>
+                    <li><a href="/services">Plastic and Reconstructive surgery clinic</a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget__content -->
@@ -36,7 +36,7 @@
                 <nav>
                   <ul class="list-unstyled">
                     <li><a href="/about">About Us</a></li>
-                    <li><a href="/service">Our Services</a></li>
+                    <li><a href="/services">Our Services</a></li>
                     {{-- <li><a href="#">Our Doctors</a></li>
                     <li><a href="#">News & Media</a></li> --}}
                     <li><a href="/appointment">Appointments</a></li>
