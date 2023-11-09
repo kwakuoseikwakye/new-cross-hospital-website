@@ -76,8 +76,8 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="service-item">
                         <div class="service__icon">
-                            <i class="icon-scissors"></i>
-                            <i class="icon-scissors"></i>
+                            <i class="icon-chair"></i>
+                            <i class="icon-chair"></i>
                         </div><!-- /.service__icon -->
                         <div class="service__content">
                             <h4 class="service__title">Sweets Surgical Sculpt - Plastic and Reconstructive Surgery</h4>
