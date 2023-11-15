@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use PhpParser\Node\Stmt\TryCatch;
 
+use function GuzzleHttp\default_ca_bundle;
+
 class AppointmentController extends Controller
 {
     public function bookAppointment(Request $request)
@@ -42,7 +44,17 @@ class AppointmentController extends Controller
             $serviceCode = DB::table("services")->where("amount", $request->services)->first()->code;
             $serviceDesc = DB::table("services")->where("amount", $request->services)->first()->desc;
 
-            $amount = str_pad($serviceAmt, 12, '0', STR_PAD_LEFT);
+            $amount = match (true) {
+                is_numeric($serviceAmt) && ($number = (int) ($serviceAmt * 100)) >= 0 && $number <= 999999999999 =>
+                str_pad($number,12,'0',STR_PAD_LEFT),
+
+                is_string($serviceAmt) && strlen($serviceAmt) === 12 && ctype_digit($serviceAmt) =>
+                $serviceAmt,
+
+                default => '',
+            };
+            // $amount = str_pad($serviceAmt, 12, '0', STR_PAD_LEFT);
+
 
             $transactionId = mt_rand(100000000000, 999999999999);
 
@@ -60,7 +72,7 @@ class AppointmentController extends Controller
                 "email" => $request->email
             ]);
 
-            $curl = curl_init("https://checkout-test.theteller.net/initiate");
+            $curl = curl_init("https://checkout.theteller.net/initiate");
             curl_setopt_array($curl, [
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_POST => true,
